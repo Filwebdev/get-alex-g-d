@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+        margin: 10;
+        width: 100%;
+        height: 100%;
+        font-size: large;
+        background-image: url("/img/background_00000.png");
+    }
+h1{
+        color: rgb(202, 65, 65);
+        font-size: 40px;
+    }
+p {
+    text-align: justify;
+    color: rgb(164, 14, 14);
+    font-size: 14px;
+    font-family: myFirstfont;
+}
+p1 {
+    font-family: myFirstfont;
+}
+ul {
+    font-family: myFirstfont;
+
+}
+
+h2 {
+    font-size: 20px;
+    font-family: myFirstfont
+}
+
+@font-face {
+    font-family: myFirstfont;
+    src: url(NishikiTeki-MVxaJ.ttf);
+}
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    color: #AA0000;
+}
+#img1{
+    /* border: 10px solid; */
+    height: 700px;
+    width: 700px;
+    position: fixed;
+    top: 20px;
+}
+#img2{
+    /* border: 10px solid; */
+    transform: rotate(-2deg);
+
+
+    position: relative;
+    top: 20px; 
+    bottom: 0px;
+    left: 100px; 
+}
+#img3{
+    /* border: 10px solid; */
+    transform: rotate(2deg);
+
+    position: relative; 
+    bottom: 150px;
+    left: 250px; 
+}
+.box{
+    width: 300px;
+    height: 410px;
+    background-color: #DFDCDA;
+    border: 30px solid #DFDCDA;
+    border-radius: 5px;
+
+    position: fixed;
+    left: 600px;
+    top: 200px;
+}
+.btn{
+    background-color: #DFDCDA; /* Blue background */
+    border-radius: 5px;
+    font-size: 40px; /* Set a font size */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    position: relative;
+    top: 10px;
+
+
+}
